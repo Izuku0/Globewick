@@ -12,7 +12,7 @@ app.use(express.json());
 const __dirname = path.resolve();
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://globewick.onrender.com',
     methods: "POST,GET,HEAD,PUT,PATCH,DELETE",
     credentials: true
 };
